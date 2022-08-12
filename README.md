@@ -25,10 +25,10 @@ Then you can install chart using:
 helm install my-trino trino/trino --version 0.8.0
 ```
 
-Install chart with customized hive catalog configuration
+Install chart with customized hive catalog configuration with helm values yaml
 
 ```console
-helm install my-trino trino/trino --version 0.8.0 -f 
+helm install my-trino trino/trino --version 0.8.0 -f xxx.yaml
 ```
 
 ## Documentation
