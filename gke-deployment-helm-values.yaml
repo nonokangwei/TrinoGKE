@@ -1,0 +1,6 @@
+additionalCatalogs:
+  hive: |-
+    connector.name=hive-hadoop2
+    hive.metastore.uri=thrift://10.33.64.17:9083
+    hive.gcs.json-key-file-path=/home/trino/hadoop/hive-key.json
+    hive.gcs.use-access-token=false
