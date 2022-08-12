@@ -25,6 +25,12 @@ Then you can install chart using:
 helm install my-trino trino/trino --version 0.8.0
 ```
 
+Install chart with customized hive catalog configuration
+
+```console
+helm install my-trino trino/trino --version 0.8.0 -f 
+```
+
 ## Documentation
 
 You can find documentation about the chart [here](./charts/trino/README.md).
